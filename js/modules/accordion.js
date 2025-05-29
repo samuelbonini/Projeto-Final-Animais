@@ -22,10 +22,6 @@ export default class Accordion {
       this.toggleAccordion(this.accordionList[0]);
       this.addAccordionEvent();
     }
-  }
-
-  if() {
-    accordionList[0].classList.add(this.activeClass);
-    accordionList[0].nextElementSibling.classList.add(this.activeClass);
+    return this;
   }
 }
